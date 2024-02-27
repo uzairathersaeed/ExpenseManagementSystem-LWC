@@ -1,18 +1,23 @@
-# Salesforce DX Project: Next Steps
+# Expense Management System
+![Expense Management System](https://github.com/uzairathersaeed/web_rtc_chat_app/assets/111059514/efee56be-403c-4157-824e-ef939a51bb3e)
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+The expenseList component serves as the main container for displaying a list of expense entries. It includes the following features:
 
-## How Do You Plan to Deploy Your Changes?
+## New Expense Form:
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+A button labeled "Create New Expense" allows users to initiate the creation of a new expense entry.
+Clicking the button reveals a form with input fields for expense type, amount, and status, enabling users to add a new expense to the list.
 
-## Configure Your Salesforce DX Project
+##Expense Filter Options:
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+The component includes a section with filter options to enable users to sort and search for specific expense entries based on criteria like date range, expense type, or status.
+Users can customize the filters to refine the displayed list of expenses.
 
-## Read All About It
+##Expense Entries:
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+The component displays a list of expense entries, each showing key details such as expense type, amount, and status.
+Each expense entry includes a "Delete" button to allow users to remove a specific expense from the list.
+Automatic Refresh:
+
+After a new expense is successfully created or an expense is deleted, the list automatically refreshes to reflect the latest changes.
+
