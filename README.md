@@ -10,8 +10,8 @@ Clicking the button reveals a form with input fields for expense type, amount, a
 
 ## Expense Filter Options:
 
-The component includes a section with filter options to enable users to sort and search for specific expense entries based on criteria like date range, expense type, or status.
-Users can customize the filters to refine the displayed list of expenses.
+The component includes a section with filter options to enable users to sort and search for specific expense entries based on criteria like expense type, or status.
+
 
 ## Expense Entries:
 
