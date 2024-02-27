@@ -8,12 +8,12 @@ The expenseList component serves as the main container for displaying a list of 
 A button labeled "Create New Expense" allows users to initiate the creation of a new expense entry.
 Clicking the button reveals a form with input fields for expense type, amount, and status, enabling users to add a new expense to the list.
 
-##Expense Filter Options:
+## Expense Filter Options:
 
 The component includes a section with filter options to enable users to sort and search for specific expense entries based on criteria like date range, expense type, or status.
 Users can customize the filters to refine the displayed list of expenses.
 
-##Expense Entries:
+## Expense Entries:
 
 The component displays a list of expense entries, each showing key details such as expense type, amount, and status.
 Each expense entry includes a "Delete" button to allow users to remove a specific expense from the list.
