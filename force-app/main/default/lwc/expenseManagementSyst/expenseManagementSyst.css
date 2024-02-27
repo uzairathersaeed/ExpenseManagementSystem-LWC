@@ -1,0 +1,21 @@
+.button {
+  color: #089cd4;
+  background-color: #ffffff;
+  border: 1px solid #089cd4;
+  margin: 15px 15px 15px 0px;
+  padding: 11px 10px 11px 10px;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.button:hover {
+  background-color: #089cd4;
+  color: #ffffff;
+  font-weight: bold;
+}
+.cardBackground {
+
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
